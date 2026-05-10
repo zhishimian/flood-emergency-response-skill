@@ -1,6 +1,6 @@
 ---
 name: flood-emergency-response
-description: Generate, review, and repair hallucination-controlled flood emergency response and rescue plans. Use when working on 洪涝灾害应急响应救援方案智能生成, multi-source disaster intelligence, GIS-constrained rescue dispatch, command briefs, text-bundle based flood scenarios, evidence conflict handling, uncertainty disclosure, human handoff advice, or evaluation rubrics for LLM/GIS/knowledge-graph flood response agents.
+description: Generate, review, and repair hallucination-controlled flood emergency response and rescue plans. Use when working on  multi-source disaster intelligence, GIS-constrained rescue dispatch, command briefs, text-bundle based flood scenarios, evidence conflict handling, uncertainty disclosure, human handoff advice, or evaluation rubrics for LLM/GIS/knowledge-graph flood response agents.
 ---
 
 # Flood Emergency Response
