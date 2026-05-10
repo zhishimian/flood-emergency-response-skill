@@ -1,0 +1,46 @@
+scenario_id: example_scenario
+step: 0
+visible_to_planner: false
+
+expected_conflict_event_ids: []
+expected_uncertainty_event_ids: []
+expected_handoff_event_ids: []
+
+minimum_alternative_plan_count: 1
+
+critical_facts:
+  - fact_id: FACT_001
+    event_id: EVT_001
+    description: ""
+    evidence_ids: []
+
+source_reliability:
+  - source_id: GIS_ROUTE_001
+    reliability: high
+    note: ""
+  - source_id: CITIZEN_001
+    reliability: low
+    note: ""
+
+acceptable_actions:
+  - event_id: EVT_001
+    decisions: ["dispatch", "switch_center", "escalate_to_human"]
+    required_conditions:
+      - ""
+
+unacceptable_actions:
+  - event_id: EVT_001
+    decision: dispatch
+    reason: ""
+
+expected_route_preferences:
+  - event_id: EVT_001
+    preferred_center_id: ""
+    preferred_mode: ""
+    preferred_route_rationale: ""
+
+required_pending_questions:
+  - event_id: EVT_001
+    question_contains: ""
+    suggested_human_role: dispatcher
+
