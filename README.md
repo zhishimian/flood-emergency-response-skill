@@ -46,10 +46,6 @@ Use the packaged file in `dist/flood-emergency-response.skill` if your environme
 
 The skill includes a lightweight JSON plan checker:
 
-```powershell
-D:/ac/envs/py1/python.exe .\flood-emergency-response\scripts\validate_rescue_plan.py .\plan.json --pretty
-```
-
 This checker only validates structure. GIS, resource, and evidence verification should still be performed by the host project.
 
 ## Note
